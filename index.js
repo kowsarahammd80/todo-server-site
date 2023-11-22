@@ -7,8 +7,6 @@ const port = process.env.PORT || 5000;
 app.use(cors())
 app.use(express.json())
 
-// user:softbintest
-// pass: FrQ4HFopjd7DfsFe
 
 
 const uri = "mongodb+srv://todolist:VxaX5TZa0e9fADx0@cluster0.df9nipl.mongodb.net/?retryWrites=true&w=majority";
